@@ -1,0 +1,91 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-content: space-around */
+    align-items: center;
+    /* background-color: rgb(211, 209, 209); */
+    border-top: 10px solid dodgerblue;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px;
+    flex-wrap: wrap;
+    position: fixed;
+    height: auto;
+    width: 100vw;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 9;
+}
+
+aside .sideNav {
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    height: 100vh;
+    background-color: #008ecffb;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-top: 60px;
+    transition: 0.5s;
+    margin-left: -300px;
+    border-top: 10px solid orange;
+}
+
+aside .sideNav a{
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    transition: 0.5s;
+   border-bottom: 2px solid white;
+   }
+
+aside .sideNav a:hover{
+    background-color: #ffffff;
+    color: #008ecffb;
+    transition: 0.5s;
+}
+
+header span{
+    display: none;
+}
+
+header input{
+    padding: 5px 20px 5px 20px;
+    border-radius: 7px;
+    border: 2px solid  #f1f3f4;
+    background-color: #f1f3f4;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: #1b291f;
+    font-weight: bold;
+}
+
+header h2 a{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+@media screen and (max-width:1020px){
+  
+    header{height: 40px;}
+    header span{
+        display: block;
+        position: absolute;
+        left: 20px;
+        
+    }
+    header h2{
+        display: none;
+    }
+    header h2 input{
+        display: none;
+    }
+}

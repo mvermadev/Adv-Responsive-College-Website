@@ -1,0 +1,164 @@
+
+body{
+    background-color: rgb(235, 244, 248);
+    /*overflow-x: hidden;*/
+
+}
+
+section{
+    background-image: url('./img/bg.jpg');
+    height: 100vh; 
+    background-size: cover; 
+    background-attachment: fixed;
+    margin-top: -20px;
+
+}
+
+section h2{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    font-size: 4em;
+    text-shadow: 1px 1px white;
+}
+
+section button{
+    width: 270px;
+    height: 60px;
+    background-color: #00c3ff;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 0.35em;
+    font-weight: bolder;
+    transition: 0.1s all;
+    text-align: left;
+    padding-left: 40px;
+    display: inline-block;
+}
+
+section button a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+section button:hover {
+    transition: 0.2s all;
+    background-color: #ffffff;
+    border: 2px solid #00c3ff;
+}
+
+/* main{
+    background-image: url('./img/bg2.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+} */
+
+main article {
+    padding: 30px;
+}
+
+main article #prt{
+    text-align: center;
+}
+
+main article #prt img{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    
+}
+
+main fieldset{
+    text-align: center;
+    background-color: #E3FCF8;
+    border: none;
+}
+
+main fieldset legend{
+    background-color: #00B3E0;
+    color: white;
+    font-size: 1.2em;
+    padding: 20px 30px;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: 1px 1px 20px gray;
+}
+
+main fieldset #card1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+main fieldset #card1  .c1{
+    /* border: 2px solid silver; */
+    border-radius: 7px;
+    margin: 10px;
+    padding: 40px;
+    width: 200px;
+    background-color: #fff;
+
+}
+
+main fieldset #card1  .c1 img {
+    width: 150px;
+    height: 150px;
+    border-bottom: 1px solid silver;
+}
+
+main fieldset #card1 .c1:hover{
+    box-shadow: 1px 1px 50px 1px silver;
+}
+
+footer{
+    text-align: center;
+}
+
+footer #ftrfs #fc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer #ftrfs {
+    background-color: #2C3A47;
+    border: none;
+}
+
+footer #ftrfs legend{
+    background-color: aquamarine;
+    padding: 20px 30px 20px 30px;
+    border-radius: 7px;
+    border-top: 8px solid orange;
+}
+
+footer #ftrfs #fc #fc1{
+    background-color: #fff;
+    /* border: 2px solid black; */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 7px;
+    border-top: 8px solid #00c3ff;
+
+}
+
+footer #ftrfs #fc #fc1:hover{
+    transform: 0.5s all;
+    box-shadow: 1px 1px 50px silver;
+}
+footer #ftrfs #fc #fc1 img{
+    width: 200px;
+    height: 200px;
+}
+
+footer h3{
+    color: white;
+    padding: 10px;
+}
+
+
+
